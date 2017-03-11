@@ -1,0 +1,14 @@
+name: NoPhys
+
+author: Cory Redmond
+
+version: ${pom.version}-${describe}
+
+description: Remove blocks with out triggering updates!
+
+main: co.ryred.nophysdelete.NoPhysPlugin
+
+commands:
+   nophys:
+      description: Toggles physics!
+      usage: /nophys
